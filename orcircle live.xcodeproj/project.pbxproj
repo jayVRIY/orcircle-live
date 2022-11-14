@@ -11,6 +11,9 @@
 		695CD4C2292022C400F8140A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695CD4C1292022C400F8140A /* ContentView.swift */; };
 		695CD4C4292022C600F8140A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695CD4C3292022C600F8140A /* Assets.xcassets */; };
 		695CD4C8292022C600F8140A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695CD4C7292022C600F8140A /* Preview Assets.xcassets */; };
+		69E86FD829210C19001BECBB /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 69E86FD729210C19001BECBB /* SwiftUIX */; };
+		69E86FDA292111BD001BECBB /* StartLiveSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E86FD9292111BD001BECBB /* StartLiveSetupView.swift */; };
+		69E86FDC29211CF8001BECBB /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E86FDB29211CF8001BECBB /* VisualEffectBlur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,8 @@
 		695CD4C3292022C600F8140A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		695CD4C5292022C600F8140A /* orcircle_live.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = orcircle_live.entitlements; sourceTree = "<group>"; };
 		695CD4C7292022C600F8140A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		69E86FD9292111BD001BECBB /* StartLiveSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartLiveSetupView.swift; sourceTree = "<group>"; };
+		69E86FDB29211CF8001BECBB /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VisualEffectBlur.swift; path = ../../../../Downloads/BackgroundBlur/BackgroundBlur/VisualEffectBlur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E86FD829210C19001BECBB /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +61,10 @@
 				695CD4BF292022C400F8140A /* orcircle_liveApp.swift */,
 				695CD4C1292022C400F8140A /* ContentView.swift */,
 				695CD4C3292022C600F8140A /* Assets.xcassets */,
+				69E86FDB29211CF8001BECBB /* VisualEffectBlur.swift */,
 				695CD4C5292022C600F8140A /* orcircle_live.entitlements */,
 				695CD4C6292022C600F8140A /* Preview Content */,
+				69E86FD9292111BD001BECBB /* StartLiveSetupView.swift */,
 			);
 			path = "orcircle live";
 			sourceTree = "<group>";
@@ -85,6 +93,9 @@
 			dependencies = (
 			);
 			name = "orcircle live";
+			packageProductDependencies = (
+				69E86FD729210C19001BECBB /* SwiftUIX */,
+			);
 			productName = "orcircle live";
 			productReference = 695CD4BC292022C400F8140A /* orcircle live.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +124,9 @@
 				Base,
 			);
 			mainGroup = 695CD4B3292022C400F8140A;
+			packageReferences = (
+				69E86FD629210C19001BECBB /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
 			productRefGroup = 695CD4BD292022C400F8140A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				695CD4C2292022C400F8140A /* ContentView.swift in Sources */,
+				69E86FDA292111BD001BECBB /* StartLiveSetupView.swift in Sources */,
 				695CD4C0292022C400F8140A /* orcircle_liveApp.swift in Sources */,
+				69E86FDC29211CF8001BECBB /* VisualEffectBlur.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +295,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -317,7 +333,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -354,6 +370,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		69E86FD629210C19001BECBB /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		69E86FD729210C19001BECBB /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69E86FD629210C19001BECBB /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 695CD4B4292022C400F8140A /* Project object */;
 }
