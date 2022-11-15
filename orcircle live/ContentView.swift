@@ -29,7 +29,11 @@ struct ContentView: View {
                                     Image(systemName: "magnifyingglass")
                                     Text("Search Rooms")
                                 }.foregroundColor(.gray.opacity(0.8))
+                            }.onTapGesture {
+                                
                             }
+                        
+
                     }
                     .padding()
                     .background(.white)
