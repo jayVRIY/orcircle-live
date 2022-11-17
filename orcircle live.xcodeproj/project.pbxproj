@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		69424B2E29231ADE00A2BAB4 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69424B2D29231ADE00A2BAB4 /* VisualEffectBlur.swift */; };
+		694CBFAE2923ACBD00B3104C /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694CBFAD2923ACBD00B3104C /* StartPage.swift */; };
 		695CD4C0292022C400F8140A /* orcircle_liveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695CD4BF292022C400F8140A /* orcircle_liveApp.swift */; };
 		695CD4C2292022C400F8140A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695CD4C1292022C400F8140A /* ContentView.swift */; };
 		695CD4C4292022C600F8140A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695CD4C3292022C600F8140A /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		69424B2D29231ADE00A2BAB4 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		694CBFAD2923ACBD00B3104C /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
 		695CD4BC292022C400F8140A /* orcircle live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "orcircle live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		695CD4BF292022C400F8140A /* orcircle_liveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orcircle_liveApp.swift; sourceTree = "<group>"; };
 		695CD4C1292022C400F8140A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				695CD4BF292022C400F8140A /* orcircle_liveApp.swift */,
 				695CD4C1292022C400F8140A /* ContentView.swift */,
+				694CBFAD2923ACBD00B3104C /* StartPage.swift */,
 				695CD4C3292022C600F8140A /* Assets.xcassets */,
 				69424B2D29231ADE00A2BAB4 /* VisualEffectBlur.swift */,
 				695CD4C5292022C600F8140A /* orcircle_live.entitlements */,
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				695CD4C2292022C400F8140A /* ContentView.swift in Sources */,
+				694CBFAE2923ACBD00B3104C /* StartPage.swift in Sources */,
 				69E86FDA292111BD001BECBB /* StartLiveSetupView.swift in Sources */,
 				695CD4C0292022C400F8140A /* orcircle_liveApp.swift in Sources */,
 				69424B2E29231ADE00A2BAB4 /* VisualEffectBlur.swift in Sources */,

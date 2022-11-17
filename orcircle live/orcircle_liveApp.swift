@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct orcircle_liveApp: App {
+    @State var isShowStart:Bool = true
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isShowStart{
+                StartPage(isShowStart: $isShowStart)
+            }else{
+                ContentView()
+            }
         }
     }
 }
